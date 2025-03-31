@@ -1,0 +1,18 @@
+{
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": "meta.embedded.block.html",
+                "settings": {
+                    "foreground": "#C678DD" // Color morado para etiquetas en templates
+                }
+            },
+            {
+                "scope": "keyword.control.angular",
+                "settings": {
+                    "foreground": "#E06C75" // Color diferente para @for, @if, etc.
+                }
+            }
+        ]
+    }
+}
